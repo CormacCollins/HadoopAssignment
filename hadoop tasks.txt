@@ -1,0 +1,27 @@
+Assignment:
+Input
+bigData <a1,a2,a3,a4>
+
+Output
+BigData A1 2 
+
+
+**Hashmap easiest for keeping track of each doc count
+
+
+
+Part 2:
+
+Staionid, TMIN date  temp
+
+vars:
+year = parse(date)
+key = stationid + ':' + year
+
+counter.write(key)
+
+
+
+Output:
+key/val
+<Stationid : year> <temp>
